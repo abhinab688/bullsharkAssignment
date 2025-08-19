@@ -8,7 +8,7 @@ A small React web app that displays a catalog of items with search, filters, sor
 
 ```bash
 # Clone repo
-git clone <your-repo-url>
+git clone https://github.com/abhinab688/bullsharkAssignment/tree/main
 cd catalog-app
 
 # Install dependencies
