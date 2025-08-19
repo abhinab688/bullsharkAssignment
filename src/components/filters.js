@@ -8,9 +8,7 @@ const Filters = (props) => {
 
     useEffect(() => {
         const handler = debounce(() => {
-            console.log('entered')
             setSearch(searchInput)
-            console.log('finished')
         }, 300)
         handler()
         return () => handler.cancel()
